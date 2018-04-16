@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:src="@drawable/header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/schedule"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Schedule"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/ourShows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Our Shows"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32sp" />
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bahimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/beautiesandheadcanons" />
+
+            <TextView
+                android:id="@+id/beautiesAndHeadcanons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/bahimg"
+                android:fontFamily="casual"
+                android:text="Beauties and Headcanons"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ctrimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/choosetorise" />
+
+            <TextView
+                android:id="@+id/chooseToRise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/ctrimg"
+                android:fontFamily="casual"
+                android:text="Choose to Rise"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/csimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/cinemastories" />
+
+            <TextView
+                android:id="@+id/cinemaStories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/csimg"
+                android:fontFamily="casual"
+                android:text="Cinema Stories"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/coffeeimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/coffee" />
+
+            <TextView
+                android:id="@+id/coffee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/coffeeimg"
+                android:fontFamily="casual"
+                android:text="Coffee with Keith and Katie"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fwimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/fantasywizards" />
+
+            <TextView
+                android:id="@+id/fantastyWizards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/fwimg"
+                android:fontFamily="casual"
+                android:text="Fantasty Wizards"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cseimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/completelyserious" />
+
+            <TextView
+                android:id="@+id/completelySerious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/cseimg"
+                android:layout_toRightOf="@+id/cseimg"
+                android:fontFamily="casual"
+                android:text="CompletelySerious"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fsimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/filmsession" />
+
+            <TextView
+                android:id="@+id/filmSession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/fsimg"
+                android:fontFamily="casual"
+                android:text="Film Session"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hohimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/headoverheels" />
+
+            <TextView
+                android:id="@+id/headOverHeels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/hohimg"
+                android:fontFamily="casual"
+                android:text="Head Over Heels"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hhpimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hollywoodhappyplace" />
+
+            <TextView
+                android:id="@+id/hollywoodHappyPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/hhpimg"
+                android:fontFamily="casual"
+                android:text="Hollywood Happy Place"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/htwgimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/howtowritegood" />
+
+            <TextView
+                android:id="@+id/howToWriteGood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/htwgimg"
+                android:fontFamily="casual"
+                android:text="How to Write Good"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/lapimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/loudandproud" />
+
+            <TextView
+                android:id="@+id/loudAndProud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/lapimg"
+                android:fontFamily="casual"
+                android:text="Loud and Proud"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/nffimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/nofilterfriday" />
+
+            <TextView
+                android:id="@+id/noFilterFriday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/nffimg"
+                android:fontFamily="casual"
+                android:text="No Filter Friday"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/aswsimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/astarwarsstory" />
+
+            <TextView
+                android:id="@+id/aStarWarsStory"
+                android:layout_width="163dp"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/aswsimg"
+                android:fontFamily="casual"
+                android:text="Podcast! A Star Wars Story"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/primg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pressrow" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/primg"
+                android:fontFamily="casual"
+                android:text="Press Row"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gadsimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/thegregganddaveshow" />
+
+            <TextView
+                android:id="@+id/greggAndDave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/gadsimg"
+                android:fontFamily="casual"
+                android:text="The Gregg and Dave Show"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/phmsimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/phmsports" />
+
+            <TextView
+                android:id="@+id/phmsports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/phmsimg"
+                android:fontFamily="casual"
+                android:text="Public House Media Sports"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tcsimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/cheapseats" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/tcsimg"
+                android:fontFamily="casual"
+                android:text="The Cheap Seats"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tmuimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/themorninguplift" />
+
+            <TextView
+                android:id="@+id/morningUplift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/tmuimg"
+                android:fontFamily="casual"
+                android:text="The Morning Uplift"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/phmimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/publichouse" />
+
+            <TextView
+                android:id="@+id/publicHouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/phmimg"
+                android:fontFamily="casual"
+                android:text="Public House Media"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/vofdimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/versooftheday" />
+
+            <TextView
+                android:id="@+id/verseOfTheDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/vofdimg"
+                android:fontFamily="casual"
+                android:text="Verse of the Day"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+    </LinearLayout>
+</ScrollView>
